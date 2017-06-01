@@ -1,0 +1,19 @@
+{
+  "name": "vue-rescue-input",
+  "version": "0.0.10",
+  "description": "",
+  "main": "vue-rescue-input.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reached/vue-rescue-input.git"
+  },
+  "author": "Casper Sørensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reached/vue-rescue-input/issues"
+  },
+  "homepage": "https://github.com/Reached/vue-rescue-input#readme"
+}

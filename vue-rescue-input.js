@@ -2,9 +2,9 @@
   try {
     var Vue = require('vue');
   } catch (e) {
-    // It's all good, Vue should already be available globally.
+
   }
-  // Then create your Vue.directive as a variable:
+
   var saveInput = Vue.directive('rescue-input', {
     bind: function(el, binding, vnode) {
       let vModel = getVModelName(vnode);
