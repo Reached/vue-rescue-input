@@ -15,12 +15,12 @@ https://codepen.io/Reached/pen/GEKZVB
 
 ### Prerequisites
 
-npm
-Vue JS 2.*
+* npm
+* Vue JS 2.*
 
 ### Installing
 
-TODO
+TODO - See the Getting Started section for now
 
 ## Authors
 
