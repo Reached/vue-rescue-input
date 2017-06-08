@@ -24,7 +24,7 @@ TODO - See the Getting Started section for now
 
 ## Authors
 
-* **Casper Sørensen** - *Initial work*
+- **Casper Sørensen** -
 
 Follow me on Twitter @caspersorensen1
 
