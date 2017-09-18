@@ -26,7 +26,7 @@ TODO - See the Getting Started section for now
 
 - **Casper Sørensen** -
 
-Follow me on Twitter @caspersorensen1
+Follow me on Twitter @RealMthrRussia
 
 ## Acknowledgments
 
