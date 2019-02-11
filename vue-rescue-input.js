@@ -1,19 +1,32 @@
 (function() {
   try {
-    var Vue = require('vue');
+    const Vue = require('vue');
   } catch (e) {
-
+    console.warn('Vue is not available or not initialized correctly.')
   }
 
-  var saveInput = Vue.directive('rescue-input', {
-    bind: function(el, binding, vnode) {
+  function findByName(data, name) {
+    let result;
+
+    function iter(a) {
+      if (a.name === name) {
+        result = a;
+        return true;
+      }
+      return Array.isArray(a.children) && a.children.some(iter);
+    }
+
+    data.some(iter);
+    return result;
+  }
+
+  const saveInput = Vue.directive('rescue-input', {
+    bind(el, binding, vnode) {
       let vModel = getVModelName(vnode);
 
       // Get the name of the v-model
       function getVModelName(vnode) {
-        return vnode.data.directives.find(function(o) { //Search the vModelName attached to the element
-          return o.name === 'model';
-        }).expression;
+        return findByName(vnode.data.directives, 'model');
       }
 
       // Set the v-model value
